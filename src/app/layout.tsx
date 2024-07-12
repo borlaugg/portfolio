@@ -6,8 +6,8 @@ import React from "react";
 const inter = Red_Hat_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Keshav Rathinavel",
-  description: "About Keshav Rathinavel, full-stack developer and solution consultant. Also, cooks and rides bikes.",
+  title: "Rishabh Ravi",
+  description: "About Rishabh Ravi, final year student at IIT Bombay.",
 };
 
 export default function RootLayout({
