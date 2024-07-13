@@ -16,14 +16,10 @@ export default function handleCommand(command: string): string[] | { text: strin
     switch (command) {
         case 'help':
             return help()
-        case 'hepl':
-            return hepl()
         case 'about':
             return about()
-        case 'projects':
-            return projects()
-        case 'experience':
-            return experience()
+        case 'cv':
+            return cv()
         case 'banner':
             return banner()
         case 'skills':
@@ -32,17 +28,11 @@ export default function handleCommand(command: string): string[] | { text: strin
             return hobbies()
         case 'papers':
             return papers()
-        case 'awards':
-            return awards()
-        case 'blog':
-            return blog()
         case 'social':
             return social()
-        case 'code':
-            return code()
         case 'clear':
             return null
         default:
-            return ['Hmmm, no idea what that does. Type "help" to see a list of available commands']
+            return ['Hey, I don\'t have a response for what you just typed :(']
     }
 }
