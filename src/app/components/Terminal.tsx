@@ -97,7 +97,7 @@ export default function Terminal() {
                 {output.map((output, index) => (
                     <div key={index}>
                         <span className='text-pink-300 font-semibold'><span
-                            className='text-green-300'>~</span> learn@about.keshav$ <span
+                            className='text-green-300'>~</span> C:rishabh\home>$ <span
                             className='text-white font-normal'>{output.command}</span></span>
                         <div className='px-4 py-2' ref={terminalEndRef}>
                             <pre>{renderResult(output.result, index)}</pre>
