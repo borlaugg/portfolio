@@ -13,7 +13,7 @@ export default function banner() {
          '           ██╔══██║██║   ██║██║╚██╔╝██║██╔══╝  ██╔═══╝ ██╔══██║██║   ██║██╔══╝   ',
          '           ██║  ██║╚██████╔╝██║ ╚═╝ ██║███████╗██║     ██║  ██║╚██████╔╝███████╗ ',
          '           ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝ ',
-        '                                       Welcome to my web terminal.',
-        '                                 For all available commands, type \'help\'.',
+        '                                  Welcome to my web terminal.',
+        '                            For all available commands, type \'help\'.',
     ]
 }
