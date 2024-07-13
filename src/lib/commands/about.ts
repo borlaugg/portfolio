@@ -1,8 +1,10 @@
 export default function about(): string[] {
     return [
-        'I am a full-stack developer from India. I love working on solutions to ambiguous problems.',
-        'The uncertainty of the domain is what excites me. When the solution adds value to someone, it\'s a win-win.',
-        'Every line of code serves both a product vision and an entrepreneurial spirit.',
-        'I also love to draw and cook. And I ride bikes fast 🏍️'
+        'Hi there! I\'m Rishabh, an undergraduate studying Electrical Engineering at IIT Bombay.',
+        'Besides my studies, I have a passion for playing football, cooking, and driving.',
+        'I play for my university at the amateur league',
+        'Football gives me an exhilarating rush, cooking allows me to express creativity, '
+        'and driving provides a sense of freedom and adventure.',
+        'I\'m excited to connect and share experiences on and off the field!'
     ]
 }
