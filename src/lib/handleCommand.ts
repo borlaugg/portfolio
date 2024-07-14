@@ -4,13 +4,8 @@ import banner from "@/lib/commands/banner";
 import hobbies from "@/lib/commands/hobbies";
 import skills from "@/lib/commands/skills";
 import papers from "@/lib/commands/papers";
-import blog from "@/lib/commands/blog";
-import experience from "@/lib/commands/experience";
-import hepl from "@/lib/commands/hepl";
-import code from "@/lib/commands/code";
-import awards from "@/lib/commands/awards";
 import social from "@/lib/commands/social";
-import projects from "@/lib/commands/projects";
+import cv from "@/lib/commands/cv";
 
 export default function handleCommand(command: string): string[] | { text: string, url: string }[] | null {
     switch (command) {
