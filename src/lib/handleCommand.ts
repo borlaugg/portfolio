@@ -1,4 +1,5 @@
 import help from "@/lib/commands/help";
+import help from "@/lib/commands/ls";
 import about from "@/lib/commands/about";
 import banner from "@/lib/commands/banner";
 import hobbies from "@/lib/commands/hobbies";
@@ -11,6 +12,8 @@ export default function handleCommand(command: string): string[] | { text: strin
     switch (command) {
         case 'help':
             return help()
+        case 'ls':
+            return ls()
         case 'about':
             return about()
         case 'cv':
