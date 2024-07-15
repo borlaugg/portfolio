@@ -31,6 +31,6 @@ export default function handleCommand(command: string): string[] | { text: strin
         case 'clear':
             return null
         default:
-            return ['Hey, I don\'t have a response for what you just typed :(']
+            return ['Hey, I don\'t have a response for what you just typed :( try entering \'help\'']
     }
 }
