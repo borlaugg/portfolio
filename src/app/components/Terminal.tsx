@@ -97,7 +97,7 @@ export default function Terminal() {
                 {output.map((output, index) => (
                     <div key={index}>
                         <span className='text-yellow-300 font-semibold'><span
-                            className='text-yellow-300'>~</span> rishabh@homepage:home$ <span
+                            className='text-cyan-300'>~</span> rishabh@homepage:home$ <span
                             className='text-white font-normal'>{output.command}</span></span>
                         <div className='px-4 py-2' ref={terminalEndRef}>
                             <pre>{renderResult(output.result, index)}</pre>
@@ -107,9 +107,9 @@ export default function Terminal() {
             </div>
             <div>
                 <form onSubmit={handleSubmit}>
-                    <span className='text-yellow-300 font-semibold'><span className='text-yellow-300'>~</span> rishabh@homepage:home$ </span>
+                    <span className='text-yellow-300 font-semibold'><span className='text-cyan-300'>~</span> rishabh@homepage:home$ </span>
                     <input type='text'
-                           className='bg-transparent focus:outline-none text-white caret-green-300'
+                           className='bg-transparent focus:outline-none text-white cyan-300'
                            value={input}
                            onChange={(e) => setInput(e.target.value)}
                            autoFocus/>
