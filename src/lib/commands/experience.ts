@@ -7,6 +7,6 @@ export default function experience(): string[] {
         '\n',
         'Nvidia, Bangalore, India - Hardware Intern',
         '➢ Worked in a team of 5+ to parallelize ANUGA, an open-source hydrodynamic modeling software by profiling and running time analysis of the program on Nvidia Nsight Systems',
-        '➢ Mentored a batch of 20+ students for two online certification courses on CUDA C & Python',
+        '➢ Mentored a batch of 20+ students for two online certification courses on CUDA C & Python'
     ]
 }
