@@ -107,7 +107,7 @@ export default function Terminal() {
             </div>
             <div>
                 <form onSubmit={handleSubmit}>
-                    <span className='text-pink-300 font-semibold'><span className='text-green-300'>~</span> rishabh@homepage:home$ </span>
+                    <span className='text-green-300 font-semibold'><span className='text-green-300'>~</span> rishabh@homepage:home$ </span>
                     <input type='text'
                            className='bg-transparent focus:outline-none text-white caret-green-300'
                            value={input}
