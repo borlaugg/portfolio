@@ -1,5 +1,5 @@
 import help from "@/lib/commands/help";
-import help from "@/lib/commands/ls";
+import ls from "@/lib/commands/ls";
 import about from "@/lib/commands/about";
 import banner from "@/lib/commands/banner";
 import hobbies from "@/lib/commands/hobbies";
