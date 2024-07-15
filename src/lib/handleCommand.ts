@@ -7,6 +7,7 @@ import hobbies from "@/lib/commands/hobbies";
 // import papers from "@/lib/commands/papers";
 import social from "@/lib/commands/social";
 import cv from "@/lib/commands/cv";
+import experience from "@/lib/commands/experience";
 
 export default function handleCommand(command: string): string[] | { text: string, url: string }[] | null {
     switch (command) {
