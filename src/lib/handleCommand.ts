@@ -4,6 +4,8 @@ import about from "@/lib/commands/about";
 import banner from "@/lib/commands/banner";
 import hobbies from "@/lib/commands/hobbies";
 import experience from "@/lib/commands/experience";
+import experience from "@/lib/commands/research";
+import experience from "@/lib/commands/publications";
 // import skills from "@/lib/commands/skills";
 // import papers from "@/lib/commands/papers";
 import social from "@/lib/commands/social";
@@ -26,6 +28,10 @@ export default function handleCommand(command: string): string[] | { text: strin
             return hobbies()
         case 'experience':
             return experience()
+        case 'research':
+            return research()
+        case 'publications':
+            return publications();
         case 'social':
             return social()
         case 'clear':
