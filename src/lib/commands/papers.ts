@@ -1,6 +1,10 @@
 export default function papers(): { text: string, url: string }[] {
     return [{
-        text: "K. Rathinavel, I. Kumar, A. Sahoo and R. P. Singh, \"Geopolitical Risk Analysis and its Impact on Market Volatility,\"",
-        url: "https://ieeexplore.ieee.org/abstract/document/10543621"
+        text: "K. Rathinavel, I. Kumar, A. Sahoo and R. P. Singh, \"SCAM: Secured Shared Cache Partitioning Scheme,\"",
+        url: "",
+        ' ',
+        text:"Rishabh Ravi, Kalp Vyas, Kaushani Majumdar, Satish Mullleti, \"Subsampling Of Correlated Graph Signals\"",
+        url: "",
+        
     }]
 }
