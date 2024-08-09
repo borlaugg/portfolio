@@ -14,6 +14,7 @@ export default function banner() {
          '           ██║  ██║╚██████╔╝██║ ╚═╝ ██║███████╗██║     ██║  ██║╚██████╔╝███████╗ ',
          '           ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝ ',
         '                                  Welcome to my web terminal.',
-        '                            For all available commands, type \'help\'.',
+        '                        For all available commands, the type \'help\'.',
+        '                   Here\'s a link to my old webpage : https://borlaugg.github.io/ ',                        
     ]
 }
