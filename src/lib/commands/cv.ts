@@ -6,7 +6,7 @@ export default function cv(): { text: string, url: string }[] {
         },
         {
             text: "and my resume",
-            url: "https://borlaugg.github.io/assets/CV.pdf"
+            url: "https://borlaugg.github.io/assets/resume.pdf"
         }
     ]
 }
