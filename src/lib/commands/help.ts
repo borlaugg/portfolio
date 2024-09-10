@@ -1,6 +1,6 @@
 export default function help(): string[] {
     return [
-        'I can provide a response to only the following commands',
+        'I can provide a response to the following commands',
         ' ',
         'help            Display a list of available commands',
         'about           About me, Rishabh Ravi',
