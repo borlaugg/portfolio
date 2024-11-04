@@ -26,6 +26,8 @@ export default function handleCommand(command: string): string[] | { text: strin
             return hobbies()
         case 'experience':
             return experience()
+        case 'projects':
+            return projects()
         case 'publications':
             return papers();
         case 'social':
