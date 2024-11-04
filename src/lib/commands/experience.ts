@@ -7,6 +7,12 @@ export default function experience(): string[] {
         'Nvidia, Remote - Hardware Intern',
         '➢ Worked in a team of 5+ to parallelize ANUGA, an open-source hydrodynamic modeling software by profiling and running time analysis',
         '   of the program on Nvidia Nsight Systems',
-        '➢ Mentored a batch of 20+ students for two online certification courses on CUDA C & Python'
+        '➢ Mentored a batch of 20+ students for two online certification courses on CUDA C & Python',
+        ' ', 
+        'Autonomous Underwater Vehicle IIT Bombay - Electrical Designer',
+        '➢ Deployed the sixth iteration of Matsya, an Autonomous Underwater Vehicle (AUV), capable of self-navigation and performing tasks',
+        '   as described by the International RoboSub competition',
+        '➢ Migrated the logic of the electrical stack to work on STM32G4 from the ATmega328P, enabling higher operation speeds provided',
+        '   by the increased I/O ports and better-suited ISA'
     ]
 }
