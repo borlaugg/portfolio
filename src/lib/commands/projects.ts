@@ -1,23 +1,23 @@
 export default function projects(): { text: string, url: string }[] {
     return [
         {
-            text: 'AI Generated Quizzes',
-            url: 'https://github.com/keshavrathinavel/AI-Driven-Quizzes'
+            text: 'Accelerating Ray Tracing',
+            url: 'https://github.com/borlaugg/Accelerating-RayTracing'
         },
         {
-            text: 'Geopolitical Risk Analysis and its Impact on Market Volatility',
-            url: 'https://github.com/keshavrathinavel/Geopolitical-Risk-Analysis-and-Its-Impact-on-Market-Volatility'
+            text: 'tinyVTA: FPGA-based Accelerator for Neural Networks',
+            url: 'https://borlaugg.github.io/assets/tinyVTA.pdf'
         },
         {
-            text: 'Effects of Compression and Encryption on Medical Images',
-            url: 'https://github.com/keshavrathinavel/Effects-of-Compression-and-Encryption-on-Medical-Images'
+            text: 'Hand Held 2D Mapping System',
+            url: 'https://borlaugg.github.io/assets/EDL_DESIGN.pdf'
         },
         {
-            text: 'Classical Dijkstra and Bidirectional Dijkstra on Traffic Nodes',
-            url: 'https://github.com/keshavrathinavel/Classical-Dijkstra-and-Bidirectional-Dijkstra-on-Traffic-Nodes'
+            text: 'Model based Embedded System Design',
+            url: 'https://github.com/borlaugg/OoO'
         },
         {
-            text: 'Virtual Baymax - an AI Health Assistant',
+            text: 'RISC Processor Design',
             url: 'https://github.com/keshavrathinavel/Virtual-Baymax'
         }
     ]
