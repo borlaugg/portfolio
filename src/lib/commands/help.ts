@@ -7,6 +7,7 @@ export default function help(): string[] {
         'banner          Display the banner again',
         'cv              View my CVs and resumes',
         'experience      My professional experience',
+        'projects        A list of my projects',
         'publications    List all of my published work',
         'hobbies         What I do outside of academia',
         'social          Find my socials',
