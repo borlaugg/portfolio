@@ -9,7 +9,9 @@ export default function projects(): { text: string, url: string }[] {
             url:'https://borlaugg.github.io/assets/SRE.pdf'
         },
         {
-            text: 'Accelerating Ray Tracing', 'asasasasa', 'sasas',
+            text: 'Accelerating Ray Tracing', 
+                    'asasasasa', 
+                    'sasas',
             url: 'https://github.com/borlaugg/Accelerating-RayTracing'
         },
         {
