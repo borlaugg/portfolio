@@ -3,11 +3,11 @@ export default function projects(): { text: string, url: string }[] {
         {
             text: 'HW/SW Codesign for Accelerating CFD Applications',
             url:'https://borlaugg.github.io/assets/DDP_stage1.pdf'
-        }
+        },
         {
             text: 'A Review of Commercial Accelerator Architectures',
             url:'https://borlaugg.github.io/assets/SRE.pdf'
-        }
+        },
         {
             text: 'Accelerating Ray Tracing',
             url: 'https://github.com/borlaugg/Accelerating-RayTracing'
