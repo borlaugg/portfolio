@@ -10,8 +10,8 @@ export default function projects(): { text: string, url: string }[] {
         },
         {
             text: 'Accelerating Ray Tracing', 
-                    'asasasasa', 
-                    'sasas',
+            text: 'Accelerating Ray Tracing',         
+            text: 'Accelerating Ray Tracing', 
             url: 'https://github.com/borlaugg/Accelerating-RayTracing'
         },
         {
