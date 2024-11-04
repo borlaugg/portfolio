@@ -7,6 +7,7 @@ import experience from "@/lib/commands/experience";
 // import skills from "@/lib/commands/skills";
 import papers from "@/lib/commands/papers";
 import social from "@/lib/commands/social";
+import projects from "@/lib/commands/projects";
 import cv from "@/lib/commands/cv";
 
 
